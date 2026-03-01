@@ -29,7 +29,7 @@ class Solution {
     }
 
     public static int max_profit_optimal(int [] prices){
-        if((prices == null) || prices.length == 0){
+        if((prices == null) || (prices.length == 0)){
             return 0;
         }
         int max_profit = 0;
